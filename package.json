@@ -1,0 +1,39 @@
+{
+  "name": "assignmentemumba",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/wdio ./wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahzeb3939/assignmentEmumba.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shahzeb3939/assignmentEmumba/issues"
+  },
+  "homepage": "https://github.com/shahzeb3939/assignmentEmumba#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/register": "^7.11.5",
+    "@wdio/local-runner": "^6.5.0",
+    "@wdio/mocha-framework": "^6.5.0",
+    "@wdio/selenium-standalone-service": "^6.4.7",
+    "@wdio/spec-reporter": "^6.4.7",
+    "@wdio/sync": "^6.5.0",
+    "chai": "^4.2.0",
+    "chai-webdriverio": "^1.0.0",
+    "webdriverio": "^6.5.0"
+  },
+  "dependencies": {
+    "@wdio/cli": "^6.5.0",
+    "core-js": "^3.6.5",
+    "regenerator-runtime": "^0.13.7",
+    "xlsx": "^0.16.7"
+  }
+}
