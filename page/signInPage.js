@@ -3,6 +3,7 @@ class signInPage {
     get passwordField () { return $(`input[name='password']`) }
     get signInButton () { return $('button .MuiButton-label') }
     get authentication () { return $('div h5') }
+    get forgotPasswordLink () { return $('a[href="/forgot-password"]') }
     
     authenticationText () {
         return this.authentication.getText();
