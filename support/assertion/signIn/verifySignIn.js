@@ -1,5 +1,4 @@
-import { assert } from 'chai';
-import signInPage from '../../page/signInPage'
+import signInPage from '../../../page/signInPage'
 
 export default () => {
     signInPage.authentication.waitForDisplayed();

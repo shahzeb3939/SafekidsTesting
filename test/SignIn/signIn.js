@@ -1,16 +1,16 @@
-import gotoSafekids from '../../support/action/gotoSafekids'
-import enterCredentials from '../../support/action/enterCredentials'
-import clickSignIn from '../../support/action/clickSignIn'
-import verifySignIn from '../../support/assertion/verifySignIn'
+import gotoSafekids from '../../support/action/signIn/gotoSafekids'
+import enterSignInCredentials from '../../support/action/signIn/enterSignInCredentials'
+import clickSignIn from '../../support/action/signIn/clickSignIn'
+import verifySignIn from '../../support/assertion/signIn/verifySignIn'
 
-describe ('Safekids App Test', function () {
+describe ('Safekids SignIn Test', function () {
     
     it ('Should go to Safekids App Home Page', () => {
         gotoSafekids();
     })
 
     it ('Should SignIn with valid credentials', () => {
-        enterCredentials();
+        enterSignInCredentials();
         clickSignIn();
     })
 

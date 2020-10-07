@@ -1,4 +1,4 @@
-import signInPage from '../../page/signInPage'
+import signInPage from '../../../page/signInPage'
 
 export default () => {
     signInPage.signInButton.waitForDisplayed();
